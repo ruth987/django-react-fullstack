@@ -49,7 +49,7 @@ function Home() {
     return (
         <div>
             <div>
-                <h2>Notes</h2>
+                <h2>Journals</h2>
                 {notes.map((note) => (
                     <Note note={note} onDelete={deleteNote} key={note.id} />
                 ))}
